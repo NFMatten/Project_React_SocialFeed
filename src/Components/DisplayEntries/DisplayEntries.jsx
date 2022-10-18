@@ -15,7 +15,7 @@ const DisplayEntries = (props) => {
                         <tr key={index}>
                             <td>{index + 1}</td>
                             <td>{entry.person}</td>
-                            <td>{entry.message}</td>
+                            <td>{entry.post}</td>
                         </tr>
                     );
                 })}

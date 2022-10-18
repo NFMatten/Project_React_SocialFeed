@@ -5,7 +5,7 @@ function NavBar() {
     <nav>
         <ul>
             <li>
-                <a className="active" href="#home">Social
+                <a className="active" href="https://github.com/NFMatten/Project_React_SocialFeed">Social
                 <small className="text-muted styling">Feed</small>
                 </a>
             </li>
