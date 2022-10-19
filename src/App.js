@@ -21,7 +21,7 @@ function App() {
     <div>
       <NavBar />
       <div className='container-fluid d-flex justify-content-center'>
-        <div className='col-md-4'>
+        <div className='col-md-6'>
           <div className='border-box'>
             <AddEntryForm addNewEntry={addNewEntry}/>
           </div>
