@@ -1,26 +1,16 @@
+import DisplaySingleEntry from "../DisplaySingleEntry/DisplaySingleEntry";
 
 const DisplayEntries = (props) => {
     return ( 
-        <table>
-            <thead>
-            <tr>
-                <th>Index</th>
-                <th>Person</th>
-                <th>Message</th>
-            </tr>
-            </thead>
-            <tbody>
+        <div> 
+            <div>
                 {props.parentEntries.map((entry, index) => {
                     return (
-                        <tr key={index}>
-                            <td>{index + 1}</td>
-                            <td>{entry.person}</td>
-                            <td>{entry.post}</td>
-                        </tr>
+                    <DisplaySingleEntry key={index} entry={entry} index={index} />
                     );
                 })}
-            </tbody>
-        </table>
+            </div>
+        </div>
      );
 }
  
