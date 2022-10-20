@@ -10,13 +10,14 @@ const AddEntryForm = (props) => {
         event.preventDefault();
         let newEntry = {
             person: person,
-            post: post
+            post: post,
+            status: 'none'
         };
         props.addNewEntry(newEntry);
     }
 
     return ( 
-        <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} id="form">
                 <div className='row spacing'>
                     <div className='col-sm-2'><label className='col-sm-2 col-form-label label-styling'>Name</label></div>
                     <div className='col-sm-8'><input className='form-control' type='text' placeholder="Enter Name" value={person} onChange={(event) => setPerson(event.target.value)}/></div>

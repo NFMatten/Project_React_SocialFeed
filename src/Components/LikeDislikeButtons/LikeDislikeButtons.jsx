@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import "./LikeDislikeButtons.css";
 
-const LikeDislikeButtons = () => {
+const LikeDislikeButtons = (props) => {
     
     const [likeButton, setLikeButton] = useState("like-inactive");
     const [dislikeButton, setDislikeButton] = useState("dislike-inactive");
@@ -27,8 +27,6 @@ const LikeDislikeButtons = () => {
                 setDislikeButton("dislike-inactive")
             }       
     }
-    
-    
     
     return ( 
         <div>

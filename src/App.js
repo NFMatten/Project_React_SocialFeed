@@ -7,13 +7,13 @@ import './App.css';
 function App() {
 
   const [entries, setEntries] = useState([
-    {person: 'Nik Matten', post: "You can also 'Like' or 'Dislike' a post by clicking Thumbs Up or Thumbs Down!"},
+    {person: 'Nik Matten', post: "Welcome to Social Feed, using React!"},
     {person: 'Nik Matten', post: "Please type your name and message to appear in the social feed!"},
-    {person: 'Nik Matten', post: "Welcome to Social Feed, using React!"}
+    {person: 'Nik Matten', post: "You can also 'Like' or 'Dislike' a post by clicking Thumbs Up or Thumbs Down!"}
   ])
 
   function addNewEntry(entry) {
-    let tempEntries = [entry, ...entries];
+    let tempEntries = [...entries, entry];
     setEntries(tempEntries);
   }
 
