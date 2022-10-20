@@ -25,8 +25,8 @@ const AddEntryForm = (props) => {
                 
                     <div className='row'>
                         <div className='col-sm-2'><label className='col-sm-2 col-form-label label-styling'>Post</label></div>
-                        <div className='col-sm-8'><input className='form-control line-height' type='text' placeholder="Enter Message" value={post} onChange={(event) => setPost(event.target.value)}/></div>
-                        <div className='col-sm-2'><button className='btn btn-primary' type='submit'>Create</button></div>
+                        <div className='col-sm-8'><textarea className='form-control' rows="3" placeholder="Enter Message" value={post} onChange={(event) => setPost(event.target.value)}/></div>
+                        <div className='col-sm-2 d-flex align-items-end'><button className='btn btn-primary' type='submit'>Create</button></div>
                     </div>
                 
                     
