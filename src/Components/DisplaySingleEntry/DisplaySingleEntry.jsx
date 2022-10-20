@@ -12,8 +12,7 @@ const DisplaySingleEntry = (props) => {
             </div>
 
         </div>
-        
-     );
+    );
 }
  
 export default DisplaySingleEntry;
