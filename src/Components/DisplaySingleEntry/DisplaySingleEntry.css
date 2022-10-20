@@ -18,3 +18,8 @@
     padding-left: 0;
     justify-content: center;
 }
+
+.button-styling {
+    padding: 0px;
+    border: 0px;
+}

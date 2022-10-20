@@ -1,0 +1,36 @@
+
+.like-inactive {
+    background-image: url("../../images/Like-Inactive.png");
+    border: none;
+    height: 27px;
+    width: 30px;
+    color: rgba(212, 212, 212);
+}
+
+.like-active {
+    background-image: url("../../images/LikeActive.png");
+    border: none;
+    height: 27px;
+    width: 30px;
+    color: rgba(212, 212, 212);
+}
+
+.dislike-inactive {
+    background-image: url("../../images/Dislike.png");
+    border: none;
+    height: 27px;
+    width: 30px;
+    margin-right: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
+
+.dislike-active {
+    background-image: url("../../images/DislikeActive.png");
+    border: none;
+    height: 27px;
+    width: 30px;
+    margin-right: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+}
